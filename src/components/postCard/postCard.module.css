@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .top{
+    display: flex;
+  }
+  
+  .imgContainer{
+    width: 90%;
+    height: 300px;
+    position: relative;
+  }
+  
+  .img{
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .date{
+    font-size: 15px;
+  }
+  
+  .title{
+    width: 90%;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .desc{
+    width: 85%;
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: rgb(194, 192, 192);
+    text-align: justify;
+  }
+  
+  .link{
+    text-decoration: underline;
+    margin-bottom: 5rem;
+  }
+
+  .readmoredate{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap:10rem
+  }
